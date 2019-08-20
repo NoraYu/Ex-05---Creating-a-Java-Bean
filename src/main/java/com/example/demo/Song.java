@@ -1,3 +1,5 @@
+package com.example.demo;
+
 public class Song {
     private long id;
     private String name;
@@ -6,28 +8,20 @@ public class Song {
     private int rating;
     private int year;
 
-    public String getName() {
-        return name;
-    }
-
-    public void setName(String name) {
-        this.name = name;
-    }
-
-    public int getYear() {
-        return year;
-    }
-
-    public void setYear(int year) {
-        this.year = year;
-    }
-
     public long getId() {
         return id;
     }
 
     public void setId(long id) {
         this.id = id;
+    }
+
+    public String getName() {
+        return name;
+    }
+
+    public void setName(String name) {
+        this.name = name;
     }
 
     public String getArtist() {
@@ -52,5 +46,13 @@ public class Song {
 
     public void setRating(int rating) {
         this.rating = rating;
+    }
+
+    public int getYear() {
+        return year;
+    }
+
+    public void setYear(int year) {
+        this.year = year;
     }
 }
